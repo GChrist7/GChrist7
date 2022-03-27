@@ -1,13 +1,3 @@
-- 👋 Hi, I’m @GChrist7
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-Olá, meu nome é Guilherme Aguiar Christ, aluno de engenharia da computação na Universidade Federal de São Paulo.
-
-
-<!---
-GChrist7/GChrist7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Guilherme Aguiar Christ |
+Engenharia da Computação |
+Universidade Federal de São Paulo (Unifesp).
