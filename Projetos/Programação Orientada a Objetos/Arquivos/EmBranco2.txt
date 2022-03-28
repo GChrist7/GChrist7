@@ -1,0 +1,3 @@
+palavra 10
+vrau 5
+lindo 3
