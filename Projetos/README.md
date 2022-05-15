@@ -1,1 +1,1 @@
-Nessa pasta estão os códigos e projetos feitos durante o curso de engenharia da computação.
+Aqui estão as pastas correspondentes aos códigos e projetos feitos para cada disciplina, durante o curso de engenharia da computação.
