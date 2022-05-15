@@ -3,7 +3,7 @@ Esse projeto teve como objetivo implementar na linguagem C um interpredador de c
 Seus requisitos são:
 1. Executar comandos unitários, com múltiplos parâmetros.  
    Exemplo: # ls -la
-2. Executar comandos encadeados, utilizando o operador pipe “|” para combinar saída e entrada entre n comandos. 
+2. Executar comandos encadeados, utilizando o operador pipe “|” para combinar saída e entrada entre n comandos. \n
    Exemplo: # ls -la | grep “teste”
 3. Executar comandos condicionados com operadores OR (||) e AND (&&). 
    Exemplo: # cat 12345 || echo "arquivo inexistente"
