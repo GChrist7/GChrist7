@@ -1,0 +1,30 @@
+Google has revolutionized the way that large-scale data management is engineered and deployed,
+and evolves over time. In particular, it developed novel methods for file-based data management for rapid indexing and searching of Web pages 
+(PageRank and Google's index structure) and for large-scale data computation. 
+Dean and Ghemawat's article focuses on the description of Google's novel distributed computation paradigm MapReduce and its associated infrastructure and deployment at Google.
+MapReduce is a programming paradigm in which developers are required to cast a computational problem in the form of two atomic components: a "map" function (similar to the Lisp map function),
+in which a set of input data in the form of "key,value" is split into a set of intermediate "key,value" pairs,
+and a "reduce" function (similar to the Lisp reduce function) that takes as input an intermediate key and set of associated values,
+and reduces that set of associated values to a smaller set, typically consisting of just a single value.
+Google has found that several of their mission-critical services can be cast as a MapReduce-style problem. Specifically,
+Dean and Ghemawat tout Google's major success of retooling their production crawling/indexing service as a MapReduce program; there are many other examples,
+including large-scale machine learning problems, clustering problems for Google News and Froogle, identification of popular queries, processing satellite imagery,
+and over 10,000 others. The general applicability and simplicity of the MapReduce paradigm has caused other implementation frameworks to become publicly available besides
+Google's in-house developed solution: Apache Hadoop, an open-source, Java-based implementation of MapReduce,
+and the Phoenix shared-memory MapReduce system developed by the computer science department at Stanford University (both are mentioned in the paper).
+This is a very readable paper that serves as a higher-level summary of Dean and Ghemawat's earlier, more technical paper [1].
+The casual practitioner who wants to learn the value added by adopting MapReduce style programs will find this paper interesting,
+as will architects who want to understand the core components and architectural style of MapReduce. These readers should focus on sections 2 and 3.
+For those interested in specifics of how MapReduce was implemented, optimized, and evaluated at Google, sections 4 and 5 will be of interest.
+Sections 1 and 6 identify the importance of using MapReduce at Google and are valuable in making the business case for adopting MapReduce at a particular organization.
+Overall, this paper represents a fast, enjoyable read for any software developer working in the area of data-intensive information systems,
+as Google has clearly engendered a viable computational paradigm and architectural style for simplifying the construction of software within the domain.
+
+References
+[1] Hadoop: Open source implementation of MapReduce. http://lucene. apache.org/hadoop/.
+[2] The Phoenix system for MapReduce programming. http://csl.stanford. edu/~christos/sw/phoenix/.
+[3] Arpaci-Dusseau, A. C., Arpaci-Dusseau, R. H., Culler, D. E., Hellerstein, J. M., and Patterson, D. A. 1997. 
+High-performance sorting on networks of workstations. In Proceedings of the 1997 ACM SIGMOD International Conference on Management of Data. Tucson, AZ
+
+Texto Retirado de: https://dl.acm.org/doi/10.1145/1327452.1327492
+

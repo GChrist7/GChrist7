@@ -1,0 +1,5 @@
+Threads Processos Processos leves
+Sincronização Semáforos Sincronização
+Semáforos Semáforos Processos Threads Threads
+Threads mappers reducers
+reducers mappers Processos leves

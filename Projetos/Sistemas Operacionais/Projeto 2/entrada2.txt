@@ -1,0 +1,16 @@
+Projeto 2 apresentado a disciplina de sistema operacionais
+Projeto de um contador de palavras com o modelo Map-reduce
+Projeto desenvolvido na linguagem C e executado no terminal "wsl"
+
+Map-reduce é um modelo de contador de palavras implementado internamente
+pela Google durante vários anos.
+
+Integrantes:
+Bruno
+Guilherme
+Gustavo 
+e
+Luiza
+
+Docente: Bruno Kimura
+
