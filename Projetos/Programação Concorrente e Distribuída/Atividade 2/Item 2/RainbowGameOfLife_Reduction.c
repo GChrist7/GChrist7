@@ -249,7 +249,7 @@ int main(int argc, char *argv[]){
     //Imprimi o tabuleiro final
     //PrintBoard_50x50(grid, EXECUTIONS);
 
-    printf("O tempo que opersção de contagem tomou foi: %0.3fms\n", getAliveCells(grid)*1000);
+    printf("O tempo que operação de contagem tomou foi: %0.3fms\n", getAliveCells(grid)*1000);
 
     return 0;
 }
